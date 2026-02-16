@@ -24,8 +24,8 @@ The project also features optional remote or local (ollama) LLM categorization a
 ![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png)
 ![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
 
-![PlayStore](www.github.com/macrolit/record-keeper/edit24.gif)
-![Tiktok](www.github.com/macrolit/record-keeper/edit14.gif)
+![PlayStore](www.github.com/record-keeper/edit24.gif)
+![Tiktok](www.github.com/record-keeper/edit14.gif)
 
 ## How to use it?
 
