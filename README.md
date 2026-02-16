@@ -21,7 +21,7 @@ The project also features optional remote or local (ollama) LLM categorization a
 ![Tiktok](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
 
-<img src="[https://i.postimg.cc/zfbphsk2/edit14.gif](https://i.postimg.cc/zfbphsk2/edit14.gif)" alt="Demo of the app's login flow" width="500" height="300">
+<img src="./assets/edit14.gif" alt="Demo of the app's login flow" width="500" height="300">
 
 <img src="https://i.postimg.cc/zfbphsk2/edit14.gif" alt="Demo of the app's login flow" width="500" height="300">
 
