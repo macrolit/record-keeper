@@ -16,6 +16,8 @@ A modular, highly-configurable, platform-agnostic, extensible, universal yaml-ma
 It supports a flexible info-management workflow by converting individual entries from most filetype contents imports into yaml frontmatter (.md). 
 The project also features optional remote or local (ollama) LLM categorization and enrichment.
 
+
+
 <img src="https://i.postimg.cc/zfbphsk2/edit14.gif" alt="Demo" width="400">
 
 ![Demo](https://raw.githubusercontent.com/macrolit/record-keeper/main/assets/edit14.gif)
@@ -53,6 +55,9 @@ https://i.postimg.cc/0j8pVF7t/edit24.gif
 
 [Watch demo GIF](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
+
+[Watch demo GIF](https://imgur.com/a/SqnJqMx)
+![Watch demo GIF](https://imgur.com/a/SqnJqMx)
 
 ## How to use it?
 
