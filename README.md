@@ -18,6 +18,11 @@ The project also features optional remote or local (ollama) LLM categorization a
 
 <img src="https://i.postimg.cc/zfbphsk2/edit14.gif" alt="Demo" width="400"
 
+
+![Demo](https://raw.githubusercontent.com/macrolit/record-keeper/main/assets/edit14.gif)
+
+
+
 [https://i.postimg.cc/zfbphsk2/edit14.gif](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
 ![PlayStore](https://i.postimg.cc/0j8pVF7t/edit24.gif)
