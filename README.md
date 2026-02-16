@@ -20,19 +20,7 @@ The project also features optional remote or local (ollama) LLM categorization a
 
 <img src="https://i.postimg.cc/zfbphsk2/edit14.gif" alt="Demo" width="400">
 
-![Demo](https://raw.githubusercontent.com/macrolit/record-keeper/blob/main/assets/edit14.gif)
-
-https://i.postimg.cc/zfbphsk2/edit14.gif
-
-[Demo](https://raw.githubusercontent.com/macrolit/record-keeper/blob/main/assets/edit14.gif)
-
-https://i.postimg.cc/0j8pVF7t/edit24.gif
-
-[https://i.postimg.cc/zfbphsk2/edit14.gif](https://i.postimg.cc/zfbphsk2/edit14.gif)
-
-![PlayStore](https://i.postimg.cc/0j8pVF7t/edit24.gif)
-
-![Tiktok](https://i.postimg.cc/zfbphsk2/edit14.gif)
+![Demo](https://raw.githubusercontent.com/macrolit/record-keeper/assets/edit14.gif)
 
 
 <img src="./assets/edit14.gif" alt="Demo of the app's login flow" width="500" height="300">
@@ -53,19 +41,13 @@ https://i.postimg.cc/0j8pVF7t/edit24.gif
 ![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
 
 
+
 [![Watch Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
-
-[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)]([https://i.postimg.cc/zfbphsk2/edit14.gif](https://i.postimg.cc/0j8pVF7t/edit24.gif))
 
 [![Watch Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
 
 
-[Watch demo GIF](https://i.postimg.cc/zfbphsk2/edit14.gif)
-
-
-[Watch demo GIF](https://imgur.com/a/SqnJqMx)
-![Watch demo GIF](https://imgur.com/a/SqnJqMx)
 
 ## How to use it?
 
