@@ -24,8 +24,8 @@ The project also features optional remote or local (ollama) LLM categorization a
 ![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png)
 ![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
 
-![PlayStore](https://i.postimg.cc/0j8pVF7t/edit24.gif)
-![Tiktok](https://i.postimg.cc/zfbphsk2/edit14.gif)
+![PlayStore](edit24.gif)
+![Tiktok](edit14.gif)
 
 ## How to use it?
 
