@@ -19,7 +19,7 @@ The project also features optional remote or local (ollama) LLM categorization a
 >  "The missing link between website exports, knowledge management tools, categorization and 
 >  AI enrichment - with a CLI-first, plugin-extensible, git-native architecture."
 
-
+![Showcase](edit1.4.gif)
 
 ## How to use it?
 
