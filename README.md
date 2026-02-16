@@ -25,6 +25,9 @@ The project also features optional remote or local (ollama) LLM categorization a
 
 <img src="https://i.postimg.cc/zfbphsk2/edit14.gif" alt="Demo of the app's login flow" width="500" height="300">
 
+
+<img src="./assets/edit14.gif"/>
+
 >  "The missing link between website exports, knowledge management tools, categorization and 
 >  AI enrichment - with a CLI-first, plugin-extensible, git-native architecture."
 
