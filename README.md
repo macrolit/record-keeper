@@ -16,6 +16,15 @@ A modular, highly-configurable, platform-agnostic, extensible, universal yaml-ma
 It supports a flexible info-management workflow by converting individual entries from most filetype contents imports into yaml frontmatter (.md). 
 The project also features optional remote or local (ollama) LLM categorization and enrichment.
 
+![PlayStore](https://i.postimg.cc/0j8pVF7t/edit24.gif)
+
+![Tiktok](https://i.postimg.cc/zfbphsk2/edit14.gif)
+
+
+<img src="[https://i.postimg.cc/zfbphsk2/edit14.gif](https://i.postimg.cc/zfbphsk2/edit14.gif)" alt="Demo of the app's login flow" width="500" height="300">
+
+<img src="https://i.postimg.cc/zfbphsk2/edit14.gif" alt="Demo of the app's login flow" width="500" height="300">
+
 >  "The missing link between website exports, knowledge management tools, categorization and 
 >  AI enrichment - with a CLI-first, plugin-extensible, git-native architecture."
 
@@ -24,8 +33,7 @@ The project also features optional remote or local (ollama) LLM categorization a
 ![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png)
 ![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
 
-![PlayStore](www.github.com/record-keeper/edit24.gif)
-![Tiktok](www.github.com/record-keeper/edit14.gif)
+
 
 ## How to use it?
 
