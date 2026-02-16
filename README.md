@@ -20,8 +20,11 @@ The project also features optional remote or local (ollama) LLM categorization a
 >  AI enrichment - with a CLI-first, plugin-extensible, git-native architecture."
 
 
-![Showcase](edit1.4)
-![Video Preview](https://i.ytimg.com/vi/ziE6UExsOrs/maxresdefault.jpg)
+![Note Formatting](https://i.postimg.cc/mgd6CNWx/Screenshot-from-2026-02-16-05-26-02.png)
+![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png)
+![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
+![PlayStore]([https://i.postimg.cc/zfbphsk2/edit14.gif](https://i.postimg.cc/0j8pVF7t/edit24.gif))
+![Tiktok](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
 ## How to use it?
 
