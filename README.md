@@ -47,11 +47,19 @@ https://i.postimg.cc/0j8pVF7t/edit24.gif
 
 
 ![Note Formatting](https://i.postimg.cc/mgd6CNWx/Screenshot-from-2026-02-16-05-26-02.png)
+
 ![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png)
+
 ![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
 
 
 [![Watch Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
+
+
+[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)]([https://i.postimg.cc/zfbphsk2/edit14.gif](https://i.postimg.cc/0j8pVF7t/edit24.gif))
+
+[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
+
 
 [Watch demo GIF](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
