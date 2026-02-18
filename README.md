@@ -21,18 +21,8 @@ The project also features optional remote or local (ollama) LLM categorization a
 >  AI enrichment - with a CLI-first, plugin-extensible, git-native architecture."
 
 
-![Note Formatting](https://i.postimg.cc/mgd6CNWx/Screenshot-from-2026-02-16-05-26-02.png)
 
-![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png)
-
-![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
-
-
-
-[![Visual Library Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
-
-
-[![Visual Library Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
+[![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
 
 
@@ -55,6 +45,9 @@ rk ls
 rk init ls
 ```
 
+
+![Note Formatting](https://i.postimg.cc/mgd6CNWx/Screenshot-from-2026-02-16-05-26-02.png)
+
 ## Features
 
 - Convert and normalize exports into Markdown with YAML frontmatter.
@@ -68,6 +61,8 @@ rk init ls
 record-keeper supports git-managed plugin modules for parsing, processing, automation, and prompts.
 Anyone can easily contribute by simply uploading an installable plugin to github.
 
+
+![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
 
 ## Open Source Models 
 
@@ -102,13 +97,9 @@ The prompts can be edited in the `src/rk/prompts/` and directories will be recog
 You can also create new .yaml files in the `config/sources/` directory or modify existing, these will be added as category context for the LLM prompt.
 For personalized LLM processing, you can define custom system messages as well.
 
-Early roadmap development:
-(Additional arguments for defining custom temperature, Top-P , Top-K etc.)
 
+![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png)
 
-# Support the release of the project through donations!
-
-The more you give the more you get
 
 # Self managed, decentraliced activity management
 
@@ -149,6 +140,7 @@ Automate connections in your notes
 Elevate RRSS feeds to the next level
 
 
+[![Visual Portrait Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
 
 
 # RecordKeeper's Unique Position
@@ -282,7 +274,11 @@ For users wanting more elaborate metadata utilization, such as Visual Library / 
 
 # Release Date
 
-Anytime before Q3 2026
+Anytime Q1 2026
+
+
+
+# Support the release of the project through donations!
 
 
 
