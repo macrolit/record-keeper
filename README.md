@@ -4,9 +4,13 @@ Advanced CLI tool for automation of Personal Knowledge Management
 
 ## What is it?
 
-A modular, highly-configurable, platform-agnostic, extensible, universal yaml-markdown workflow for bulk processing and decentralized archival of exportable collections from any source.
+A modular, highly-configurable, platform-agnostic, extensible, universal file conversion workflow for bulk processing and decentralized archival of exportable collections from any source.
 
-## What does it do?
+## What does it currently do?
+
+The project is supposed to serve as a standardized playground for media conversion, retrieval, export and enrichment. Servings as a ground base structure and playground for utilization of conversion scripts along with LLM enhancement.
+
+The initial scope is to:
 
 - Turn your social media exports into .md notes with flexible properties.
 - Integrate seamlessly with RRSS feeds and categorize your highlights
@@ -16,13 +20,22 @@ A modular, highly-configurable, platform-agnostic, extensible, universal yaml-ma
 It supports a flexible info-management workflow by converting individual entries from most filetype contents imports into yaml frontmatter (.md). 
 The project also features optional remote or local (ollama) LLM categorization and enrichment.
 
+## Why only PKM's? (Personal Knowledge Managers)
+
+The project initially ships with a focused intended use for note-taking centric use-cases. 
+However since of it's modular agnosticism, the same workflow can also be realistically utilized for the following use cases:
+
+- Direct image-to-text bulk automation
+- File-type generation
+- Any combination of format-to-format file conversions
+- Global multimedia interpretation and transcription engine
+
 
 >  "The missing link between website exports, knowledge management tools, categorization and 
 >  AI enrichment - with a CLI-first, plugin-extensible, git-native architecture."
 
 
 [![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
-
 
 
 ## How to use it?
