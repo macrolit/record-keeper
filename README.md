@@ -29,10 +29,10 @@ The project also features optional remote or local (ollama) LLM categorization a
 
 
 
-[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
+[![Visual Library Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
 
-[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
+[![Visual Library Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
 
 
 
