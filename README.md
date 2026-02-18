@@ -206,18 +206,6 @@ Optional: Retrieve, Categorize(AI), Enrich(AI)
 
 
 
-## Future implementations
-
-- Extensive support (testing) of newer Ai models
-- Image-to-text character recognition and sketch/drawing interpretation
-- Widespread compatibility
-- Exportable datasets
-- Platform migration options 
-
-Take a look at the ==ROADMAP.md== for more
-
-
-
 
 # Editor Support Beyond Basic Markdown
 
@@ -267,6 +255,11 @@ For users wanting more elaborate metadata utilization, such as Visual Library / 
 | **Typora**           | ✅ Local or URL embeds             | ⚠️ Only preserves text                                                               | ❌ Metadata filtering only                                                                           | File list only                                                                                                                        |
 | **Zim**                  | ✅ Yes, displayed in preview pane  | ❌ No editor parsing/import. Native metadata: page properties in `key:: value` format | ❌ Basic text search                                                                                 | File list only                                                                                                                        |
 
+
+
+## Future implementations
+
+Take a look at the ==ROADMAP.md== for info
 
 
 # Release Date
