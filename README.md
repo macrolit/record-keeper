@@ -28,7 +28,8 @@ However since of it's modular agnosticism, the same workflow can also be realist
 - Direct image-to-text bulk automation
 - File-type generation
 - Any combination of format-to-format file conversions
-- Global multimedia interpretation and transcription engine
+- Global multimedia interpretation and transcription engines
+- Sortcut adaptations for live LLM completions for text editing
 
 
 >  "The missing link between website exports, knowledge management tools, categorization and 
