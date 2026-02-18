@@ -36,7 +36,7 @@ However since of it's modular agnosticism, the same workflow can also be realist
 
 
 [![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
-
+>  Example of categorized and enriched note
 
 ## How to use it?
 
