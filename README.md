@@ -21,8 +21,7 @@ The project also features optional remote or local (ollama) LLM categorization a
 >  AI enrichment - with a CLI-first, plugin-extensible, git-native architecture."
 
 
-
-[![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
+[![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
 
 
 
@@ -61,8 +60,6 @@ rk init ls
 record-keeper supports git-managed plugin modules for parsing, processing, automation, and prompts.
 Anyone can easily contribute by simply uploading an installable plugin to github.
 
-
-![Note Formatting](https://i.postimg.cc/cHdgWY6M/Screenshot-from-2026-02-16-04-22-58.png)
 
 ## Open Source Models 
 
@@ -140,7 +137,7 @@ Automate connections in your notes
 Elevate RRSS feeds to the next level
 
 
-[![Visual Portrait Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
+[![Visual Portrait Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
 
 
 # RecordKeeper's Unique Position
