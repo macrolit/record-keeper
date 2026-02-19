@@ -78,7 +78,8 @@ Notes:
   rk convert <args> input /home/user/here output /home/user/record-keeper/tmp/   # Same
   rk convert <args> in=/home/user/here out=/home/user/record-keeper/tmp/         # Same
   rk convert <args> in /home/user/here out /home/user/record-keeper/tmp/         # Same
-  rk convert <args> in=@ out=%tmp/                                               # Same (recommended approach) using bound + rk path resolution
+  rk convert <args> in=@ out=%tmp/                                               # Same (recommended approach) using
+                                                                                 # bound + rk path resolution
 
 
 # Initialize sources and types
@@ -104,15 +105,15 @@ Notes:
 
   rk convert obsidian -q -f tmp/file.md tmp/output.yaml                           # works assuming you are located in record-keeper folder btw
 
-  rk convert using direct bookmarks in=tmp/input.html out=tmp/output.yaml         # use a conversion chain (using)                                                                                                               "direct.py" piped into "bookmarks.py" both stored in                                                                                           "src/modules/conversion/"
+  rk convert using direct bookmarks in=tmp/input.html out=tmp/output.yaml         # use a conversion chain (using)                                                                                                               #"direct.py" piped into "bookmarks.py" both stored in                                                                                          #"src/modules/conversion/"
 
-  rk retrieve bookmark_fetcher in=%tmp/bookmarks.yaml out=%tmp/r-bookmarks.yaml   # runs plugin bookmark_fetcher.py from                                                                                                         "src/modules/retrieval/"
+  rk retrieve bookmark_fetcher in=%tmp/bookmarks.yaml out=%tmp/r-bookmarks.yaml   # runs plugin bookmark_fetcher.py from                                                                                                         # "src/modules/retrieval/"
 
-  rk automate <platform> -s in=%tmp/storage/ out=@sorted/                         # Uses LLM automation with platform-specific prompts                                                                                           defined in src/rk/prompts, overriding config/service.yaml                                                                                      (your config) with the -s flag (--serverless-inference)                                                                                        forcing remote inference
+  rk automate <platform> -s in=%tmp/storage/ out=@sorted/                         # Uses LLM automation with platform-specific prompts                                                                                           # defined in src/rk/prompts, overriding config/service.yaml                                                                                    # (your config) with the -s flag (--serverless-inference)                                                                                      # forcing remote inference
 
-  rk automate <platform> in=%tmp/storage/ out=@sorted/                            # Uses AI-model automation with platform-specific prompts                                                                                      defined in src/rk/prompts,using your config                                                                                                    (config/service.yaml)
+  rk automate <platform> in=%tmp/storage/ out=@sorted/                            # Uses AI-model automation with platform-specific prompts                                                                                      # defined in src/rk/prompts,using your config                                                                                                  # (config/service.yaml)
 
-  rk parse using yaml in=tmp/data.yaml out=tmp/clean.yaml                         # Currently there is only a YAML parser (more types in the                                                                                     future as needed)
+  rk parse using yaml in=tmp/data.yaml out=tmp/clean.yaml                         # Currently there is only a YAML parser (more types in the                                                                                     # future as needed)
 
 # Organize categorized files into folders
   rk arrange 
