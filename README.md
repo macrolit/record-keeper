@@ -56,9 +56,76 @@ Currently stable using python <3.12
 Test the tool
 
 ```sh
-rk --help
-rk ls
-rk init ls
+Notes:
+  - Source and type names are case-insensitive
+  - Initialization prevents overwriting existing directories
+  - Structure is populated from the 'structure:' field in source config files
+  - Multiple instances can exist at different locations; use 'cd' to navigate
+
+# Examples:
+  # Directory binding and navigation
+  rk bind ~/Documents/collections     # bind directory so you don't have to specify paths every time
+  rk ls @                             # Should output ~/Documents/collections , along with subdirs (bookmarks, etc.)
+  rk ls                               # Should output ~/Documents/collections , along with subdirs (bookmarks, etc.)
+  rk sel bookmarks                    # Select. Similar to "cd" command. Path resolution (pr) can jump down up to a depth of 2 dirs without sel
+  rk <command> <args> @firefox        # Theoretical case where firefox exists in "bookmarks/firefox", no need to sel
+  rk <command> <args> @firefox/user   # Out of pr reach, use either "rk ... @firefox/user" or "rk sel bookmars/firefox" then "rk ... @user" 
+  rk unbind                           # Unbind ~/Documents/collections. Bound dirs history can be viewed with "rk init ls". You can use path                                         resolutions anywhere regardless of current pwd. 
+
+# Run examples
+  rk convert <args> /home/user/here /home/user/record-keeper/tmp/                # Rely completely in the current script args for path handling
+  rk convert <args> input=/home/user/here output=/home/user/record-keeper/tmp/   # Use standardized path handling (same across scripts)
+  rk convert <args> input /home/user/here output /home/user/record-keeper/tmp/   # Same
+  rk convert <args> in=/home/user/here out=/home/user/record-keeper/tmp/         # Same
+  rk convert <args> in /home/user/here out /home/user/record-keeper/tmp/         # Same
+  rk convert <args> in=@ out=%tmp/                                               # Same (recommended approach) using bound + rk path resolution
+
+
+# Initialize sources and types
+  rk init                           # List available sources
+  rk init Books                     # List types for Books
+  rk init Books physical            # Create Books/physical/ with structure
+  rk init Books all                 # Create all Books types (empty)
+  rk init Books full all            # Create all Books types with structures
+  rk init Books physical none       # Create Books/ebook/ empty (no structure)
+  
+# Initialize everything
+  rk init full                      # Create all source folders
+  rk init all                       # Create all sources + types (empty)
+  rk init full all                  # Create everything with full structure
+  
+# View tracking
+  rk init list                      # Show all tracked directories
+  rk init ls                        # Alias to "rk init list"
+  rk init list config               # Show available config files
+
+# Data conversion and processing
+  rk convert obsidian tmp/file.md tmp/output.yaml                                 # use a conversion community plugin "obsidian" (obsidian.py                                                                                    stored in src/modules/conversion/obsidian.py)
+
+  rk convert obsidian -q -f tmp/file.md tmp/output.yaml                           # works assuming you are located in record-keeper folder btw
+
+  rk convert using direct bookmarks in=tmp/input.html out=tmp/output.yaml         # use a conversion chain (using)                                                                                                               "direct.py" piped into "bookmarks.py" both stored in                                                                                           "src/modules/conversion/"
+
+  rk retrieve bookmark_fetcher in=%tmp/bookmarks.yaml out=%tmp/r-bookmarks.yaml   # runs plugin bookmark_fetcher.py from                                                                                                         "src/modules/retrieval/"
+
+  rk automate <platform> -s in=%tmp/storage/ out=@sorted/                         # Uses LLM automation with platform-specific prompts                                                                                           defined in src/rk/prompts, overriding config/service.yaml                                                                                      (your config) with the -s flag (--serverless-inference)                                                                                        forcing remote inference
+
+  rk automate <platform> in=%tmp/storage/ out=@sorted/                            # Uses AI-model automation with platform-specific prompts                                                                                      defined in src/rk/prompts,using your config                                                                                                    (config/service.yaml)
+
+  rk parse using yaml in=tmp/data.yaml out=tmp/clean.yaml                         # Currently there is only a YAML parser (more types in the                                                                                     future as needed)
+
+# Organize categorized files into folders
+  rk arrange 
+  rk arrange settle <input_directory> <output_root_directory>
+
+# Module manager (github plugins)
+  rk mod list                          # list all modules
+  rk mod list core                     # list stored in "src/rk/" 
+  rk mod list external                 # list stored in "src/modules/" 
+  rk mod get <username/gitrepo>
+  rk mod remove <username/gitrepo>
+  rk mod info <name>
+  
 ```
 
 
