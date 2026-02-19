@@ -101,32 +101,45 @@ Notes:
   rk init list config               # Show available config files
 
 # Data conversion and processing
-  rk convert obsidian tmp/file.md tmp/output.yaml                                 # use a conversion community plugin "obsidian" (obsidian.py                                                                                    stored in src/modules/conversion/obsidian.py)
+  rk convert obsidian tmp/file.md tmp/output.yaml                                 # use a conversion community plugin "obsidian" (obsidian.py
+                                                                                  # stored in src/modules/conversion/obsidian.py)
 
   rk convert obsidian -q -f tmp/file.md tmp/output.yaml                           # works assuming you are located in record-keeper folder btw
 
   rk convert using direct bookmarks in=tmp/input.html out=tmp/output.yaml         # use a conversion chain (using)
-                                                                                  #"direct.py" piped into "bookmarks.py" both stored in
-                                                                                  #"src/modules/conversion/"
+                                                                                  # "direct.py" piped into "bookmarks.py" both stored in
+                                                                                  # "src/modules/conversion/"
 
   rk retrieve bookmark_fetcher in=%tmp/bookmarks.yaml out=%tmp/r-bookmarks.yaml   # runs plugin bookmark_fetcher.py from
                                                                                   # "src/modules/retrieval/"
 
   rk automate <platform> -s in=%tmp/storage/ out=@sorted/                         # Uses LLM automation with platform-specific prompts
                                                                                   # defined in src/rk/prompts, overriding config/service.yaml
-                                                                                  # (your config) with the -s flag (--serverless-inference)                                                                                      # forcing remote inference
+                                                                                  # (your config) with the -s flag (--serverless-inference)
+                                                                                  # forcing remote inference
 
-  rk automate <platform> in=%tmp/storage/ out=@sorted/                            # Uses AI-model automation with platform-specific prompts
-                                                                                  # defined in src/rk/prompts,using your config
-                                                                                  # (config/service.yaml)
+  rk automate <platform> in=%tmp/stored/ out=@categories/                         # Uses AI-model bulk automation with platform-specific 
+                                                                                  # prompts defined in src/rk/prompts, using your config
+                                                                                  # (config/service.yaml) . It won't move or create any files.
+                                                                                  # Output dir structure is for prompt reference and 
+                                                                                  # MUST have been structured with category folders,
+                                                                                  # either by creating them manually or populate using 
+                                                                                  # "rk init <source> <type>". Otherwise the prompt WON'T INCLUDE
+                                                                                  # ANY CATEGORIES and you will potentially waste credits.
+                                                                                  # (sources and types can be configured as well, they are simple 
+                                                                                  # .yaml files at "config/sources/". you can simply create folders 
+                                                                                  # manually too)
 
-  rk parse using yaml in=tmp/data.yaml out=tmp/clean.yaml                         # Currently there is only a YAML parser (more types in the
+  rk parse using yaml in=tmp/data.yaml out=tmp/clean.yaml                         # Currently there is only a YAML parser (more parser types in the
                                                                                   # future as needed)
 
 # Organize categorized files into folders
   rk arrange 
-  rk arrange settle <input_directory> <output_root_directory>
-
+  rk arrange settle <input_directory> <output_root_directory>                     # Uses "category" frontmatter field for copying .md files
+                                                                                  # from input dir into relevant category folders at destination.
+                                                                                  # Output directory MUST contain the relevant folder structure
+                                                                                  # (create with "rk init <source> <type>") or else it will copy 
+                                                                                  # all as "uncategorized"
 # Module manager (github plugins)
   rk mod list                          # list all modules
   rk mod list core                     # list stored in "src/rk/" 
