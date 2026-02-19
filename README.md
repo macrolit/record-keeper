@@ -125,9 +125,13 @@ Notes:
 
   rk automate <platform> in=%tmp/stored/ out=@categories/                         # Uses AI-model bulk automation with platform-specific 
                                                                                   # prompts defined in src/rk/prompts, using your config
-                                                                                  # (config/service.yaml) . It won't move or create any files.
-                                                                                  # Output dir structure is for prompt reference and 
-                                                                                  # MUST have been structured with category folders,
+                                                                                  # (config/service.yaml) . It will modify frontmatter 
+                                                                                  # (e.g. "category:") from input files, it also appends 
+                                                                                  # markdown text in the file as defined in the 
+                                                                                  # "src/rk/prompts" it will make in-place editing 
+                                                                                  # to files located in the input directory.
+                                                                                  # Output dir structure will be included for prompt reference 
+                                                                                  # and MUST have been structured with category folders,
                                                                                   # either by creating them manually or populate using 
                                                                                   # "rk init <source> <type>". Otherwise the prompt WON'T INCLUDE
                                                                                   # ANY CATEGORIES and you will potentially waste credits.
