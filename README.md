@@ -8,7 +8,7 @@ A modular, highly-configurable, platform-agnostic, extensible, universal file co
 
 ## What does it currently do?
 
-The project is supposed to serve as a standardized playground for media conversion, retrieval, export and enrichment. Servings as a ground base structure and playground for utilization of conversion scripts along with LLM enhancement.
+The project is supposed to serve as a standardized playground for media conversion, retrieval, export and enrichment. Serving as a ground base structure and playground for utilization of conversion scripts along with LLM enhancement.
 
 The initial scope is to:
 
