@@ -22,14 +22,17 @@ The project also features optional remote or local (ollama) LLM categorization a
 
 ## Why only PKM's? (Personal Knowledge Managers)
 
-The project initially ships with a focused intended use for note-taking centric use-cases. 
-However since of it's modular agnosticism, the same workflow can also be realistically utilized for the following use cases:
+The project is not locked down to note-taking or archival centric workflows.
+However, it initially ships with a strong intended focus for yaml-markdown centric use-cases. Support for other parsing mechanisms can be easily integrated, such as JSON metadata support or platform migration/automation using tools like N8N.
+
+Since of it's modular agnosticism, the same workflow can also be realistically utilized for the following use cases:
 
 - Direct image-to-text bulk automation
 - File-type generation
 - Any combination of format-to-format file conversions
 - Global multimedia interpretation and transcription engines
 - Sortcut adaptations for live LLM completions for text editing
+- Account/platform migration
 
 
 >  "The missing link between website exports, knowledge management tools, categorization and 
