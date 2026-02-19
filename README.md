@@ -139,7 +139,8 @@ Notes:
                                                                                   # .yaml files at "config/sources/". you can simply create folders 
                                                                                   # manually too)
 
-  rk parse using yaml in=tmp/data.yaml out=tmp/clean.yaml                         # Currently there is only a YAML parser (more parser types in the
+  rk parse using yaml in=tmp/data.yaml out=tmp/clean.yaml                         # Uses a script chain for parsing YAML stored in src/rk/parsing/yaml/ .
+                                                                                  # Currently there is only a YAML parser (more parser types in the
                                                                                   # future as needed)
 
 # Organize categorized files into folders
