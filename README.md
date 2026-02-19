@@ -25,7 +25,7 @@ The project also features optional remote or local (ollama) LLM categorization a
 The project is not locked down to note-taking or archival centric workflows.
 
 However, it initially ships with a strong intended focus for yaml-markdown use-cases. Support for other parsing mechanisms can be easily integrated, 
-such as JSON metadata support or platform migration or automation using tools like N8N.
+such as JSON metadata support, specific conversions for platform migration or for automation using tools like N8N.
 
 Since of it's modular agnosticism, the same workflow can also be realistically utilized for the following use cases:
 
@@ -44,7 +44,7 @@ Since of it's modular agnosticism, the same workflow can also be realistically u
 [![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
 >  Example of categorized and enriched note
 
-## How to use it?
+## How to install?
 
 Simply clone the git repo and install it with -e (editable) in an accessible location ()
 
@@ -55,7 +55,10 @@ pipx install -e . --python3.11
 ```
 Currently stable using python <3.12
 
+## How to use it?
+
 Test the tool
+`rk -h`
 
 ```sh
 Notes:
