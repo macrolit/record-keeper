@@ -20,7 +20,7 @@ The initial scope is to:
 It supports a flexible info-management workflow by converting individual entries from most filetype contents imports into yaml frontmatter (.md). 
 The project also features optional remote or local (ollama) LLM categorization and enrichment.
 
-## Why only PKM's? (Personal Knowledge Managers)
+## Is it for PKM's only? (Personal Knowledge Managers)
 
 The project is not locked down to note-taking or archival centric workflows.
 
@@ -46,11 +46,11 @@ Since of it's modular agnosticism, the same workflow can also be realistically u
 
 ## How to install?
 
-Simply clone the git repo and install it with -e (editable) in an accessible location ()
+Simply clone the git repo and install it with pipx and -e (editable) in an accessible location (you can move it to /bin or have it anywhere on disk)
 
 ```sh
-git clone https://github.com/macrolit/record-keeper
-cd record-keeper
+git clone https://github.com/macrolit/recordkeeper
+cd recordkeeper
 pipx install -e . --python3.11
 ```
 Currently stable using python <3.12
@@ -78,11 +78,11 @@ Notes:
   rk unbind                           # Unbind ~/Documents/collections. Bound dirs history can be viewed with "rk init ls". You can use path                                         resolutions anywhere regardless of current pwd. 
 
 # Run examples
-  rk convert <args> /home/user/here /home/user/record-keeper/tmp/                # Rely completely in the current script args for path handling
-  rk convert <args> input=/home/user/here output=/home/user/record-keeper/tmp/   # Use standardized path handling (same across scripts)
-  rk convert <args> input /home/user/here output /home/user/record-keeper/tmp/   # Same
-  rk convert <args> in=/home/user/here out=/home/user/record-keeper/tmp/         # Same
-  rk convert <args> in /home/user/here out /home/user/record-keeper/tmp/         # Same
+  rk convert <args> /home/user/here /home/user/recordkeeper/tmp/                # Rely completely in the current script args for path handling
+  rk convert <args> input=/home/user/here output=/home/user/recordkeeper/tmp/   # Use standardized path handling (same across scripts)
+  rk convert <args> input /home/user/here output /home/user/recordkeeper/tmp/   # Same
+  rk convert <args> in=/home/user/here out=/home/user/recordkeeper/tmp/         # Same
+  rk convert <args> in /home/user/here out /home/user/recordkeeper/tmp/         # Same
   rk convert <args> in=@ out=%tmp/                                               # Same (recommended approach) using
                                                                                  # bound + rk path resolution
 
@@ -109,7 +109,7 @@ Notes:
   rk convert obsidian tmp/file.md tmp/output.yaml                                 # use a conversion community plugin "obsidian" (obsidian.py
                                                                                   # stored in src/modules/conversion/obsidian.py)
 
-  rk convert obsidian -q -f tmp/file.md tmp/output.yaml                           # works assuming you are located in record-keeper folder btw
+  rk convert obsidian -q -f tmp/file.md tmp/output.yaml                           # works assuming you are located in recordkeeper folder btw
 
   rk convert using direct bookmarks in=tmp/input.html out=tmp/output.yaml         # use a conversion chain (using)
                                                                                   # "direct.py" piped into "bookmarks.py" both stored in
@@ -172,7 +172,7 @@ Notes:
 
 ## Module System
 
-record-keeper supports git-managed plugin modules for parsing, processing, automation, and prompts.
+recordkeeper supports git-managed plugin modules for parsing, processing, automation, and prompts.
 Anyone can easily contribute by simply uploading an installable plugin to github.
 
 
