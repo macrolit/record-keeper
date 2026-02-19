@@ -25,7 +25,7 @@ The project also features optional remote or local (ollama) LLM categorization a
 The project is not locked down to note-taking or archival centric workflows.
 
 However, it initially ships with a strong intended focus for yaml-markdown use-cases. Support for other parsing mechanisms can be easily integrated, 
-such as JSON metadata support or platform migration/automation using tools like N8N.
+such as JSON metadata support or platform migration or automation using tools like N8N.
 
 Since of it's modular agnosticism, the same workflow can also be realistically utilized for the following use cases:
 
