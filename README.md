@@ -1,7 +1,8 @@
 
-file:///home/alpha/Pictures/Screenshots/Screenshot%20from%202026-02-22%2009-10-17.png
 
+<img width="2753" height="496" alt="Screenshot from 2026-02-22 09-10-17" src="https://github.com/user-attachments/assets/7bc25145-5776-4574-822b-df49b4f6142e" />
 
+![2026-02-16 04-03-33](https://github.com/user-attachments/assets/d58433bb-bc57-42f2-9a9e-d9b2c9ca8ca8)
 
 # Record Keeper
 
