@@ -219,7 +219,7 @@ You can also create new .yaml files in the `config/sources/` directory or modify
 For personalized LLM processing, you can define custom system messages as well.
 
 
-![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png)
+![Note Formatting](https://i.postimg.cc/WpXr29G4/Screenshot-from-2026-02-16-04-26-57.png) (showcase of automated context retrieval)
 
 
 # Self managed, decentraliced activity management
