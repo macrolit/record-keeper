@@ -2,8 +2,6 @@
 
 <img width="2753" height="496" alt="Screenshot from 2026-02-22 09-10-17" src="https://github.com/user-attachments/assets/7bc25145-5776-4574-822b-df49b4f6142e" />
 
-![2026-02-16 04-03-33](https://github.com/user-attachments/assets/d58433bb-bc57-42f2-9a9e-d9b2c9ca8ca8)
-
 # Record Keeper
 
 Advanced CLI tool for automation of Personal Knowledge Management
@@ -48,7 +46,7 @@ Since of it's modular agnosticism, the same workflow can also be realistically u
 
 
 [![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
->  Example of categorized and enriched note
+ (Example of categorized and enriched note)
 
 ## How to install?
 
