@@ -1,3 +1,6 @@
+
+<img width="2000" height="2000" alt="Copy of _(2)" src="https://github.com/user-attachments/assets/4554ac68-2f75-451c-af01-47e2dbd02c18" />
+
 # Record Keeper
 
 Advanced CLI tool for automation of Personal Knowledge Management
