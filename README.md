@@ -1,5 +1,7 @@
 
-<img width="2000" height="2000" alt="Copy of _(2)" src="https://github.com/user-attachments/assets/4554ac68-2f75-451c-af01-47e2dbd02c18" />
+file:///home/alpha/Pictures/Screenshots/Screenshot%20from%202026-02-22%2009-10-17.png
+
+
 
 # Record Keeper
 
