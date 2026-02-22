@@ -50,7 +50,7 @@ Since of it's modular agnosticism, the same workflow can also be realistically u
 
 
 [![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
- (Example of categorized and enriched note)
+ (Example of visual display)
 
 ## How to install?
 
@@ -169,7 +169,7 @@ Notes:
 ```
 
 
-![Note Formatting](https://i.postimg.cc/mgd6CNWx/Screenshot-from-2026-02-16-05-26-02.png)
+![Note Formatting](https://i.postimg.cc/mgd6CNWx/Screenshot-from-2026-02-16-05-26-02.png) (Example of categorized and enriched note)
 
 ## Features
 
@@ -261,7 +261,7 @@ Automate connections in your notes
 Elevate RRSS feeds to the next level
 
 
-[![Visual Portrait Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif)
+[![Visual Portrait Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/zfbphsk2/edit14.gif) (Visual Portrait Demo)
 
 
 # RecordKeeper's Unique Position
