@@ -24,6 +24,8 @@ The initial scope is to:
 It supports a flexible info-management workflow by converting individual entries from most filetype contents imports into yaml frontmatter (.md). 
 The project also features optional remote or local (ollama) LLM categorization and enrichment.
 
+<img width="3759" height="1944" alt="Screenshot from 2026-02-22 10-08-48" src="https://github.com/user-attachments/assets/9211cc5c-5ef4-4c1e-aa1f-5392285ebecb" />
+
 ## Is it for PKM's only? (Personal Knowledge Managers)
 
 The project is not locked down to note-taking or archival centric workflows.
@@ -43,6 +45,8 @@ Since of it's modular agnosticism, the same workflow can also be realistically u
 
 >  "The missing link between website exports, knowledge management tools, categorization and 
 >  AI enrichment - with a CLI-first, plugin-extensible, git-native architecture."
+
+![2026-02-16 04-03-33](https://github.com/user-attachments/assets/c8b90378-2549-4401-95f4-976848a73a00)
 
 
 [![Visual Demo](https://img.shields.io/badge/Watch%20Demo-GIF-blue?style=flat&logo=github)](https://i.postimg.cc/0j8pVF7t/edit24.gif)
