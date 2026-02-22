@@ -24,7 +24,7 @@ The initial scope is to:
 It supports a flexible info-management workflow by converting individual entries from most filetype contents imports into yaml frontmatter (.md). 
 The project also features optional remote or local (ollama) LLM categorization and enrichment.
 
-<img width="3759" height="1944" alt="Screenshot from 2026-02-22 10-08-48" src="https://github.com/user-attachments/assets/9211cc5c-5ef4-4c1e-aa1f-5392285ebecb" />
+<img width="3759" height="1944" alt="Screenshot from 2026-02-22 10-08-48" src="https://github.com/user-attachments/assets/9211cc5c-5ef4-4c1e-aa1f-5392285ebecb" /> (example of end result for a games library export)
 
 ## Is it for PKM's only? (Personal Knowledge Managers)
 
